@@ -1,0 +1,20 @@
+Test key user-facing functionalities on the FNB public website to ensure usability, correct content and working links.
+TEST CASE 1
+
+Title:        Homepage load successfully
+
+Steps:     1.  Open browser.     2. Navigate to http://www.fnb.co.za
+
+Expected Result:          Homepage loads with FNB logo and main navigation menu
+
+Outcome:                     Pass
+Priority                     High
+Attachments
+1
+
+Screenshot (4).png
+Screenshot(4).png
+21 Jun 2025, 02:50
+
+Testcase was created on Jira, copied and paste onto Github.
+https://nondumisozuma4.atlassian.net/jira/software/projects/SCRUM/boards/1/backlog
