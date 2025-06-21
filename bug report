@@ -1,0 +1,20 @@
+A real-world scenario when the site fails
+
+BUG REPORT 1
+
+Title:        Login Portal fails to load during occasional service outage
+
+Description:   Clicking “Login” leads to timeout or error, login portal doesn’t appear
+
+Steps:    1.  Navigate to https://www.fnb.co.za    2.  Click “Login”   3. Observe no page load or timeout
+
+Expected Result:   Login portal loads successfully.
+
+Actual Result:  Page fails or times out
+
+Status:   Fail
+
+Priority:   High
+
+Report created on Jira and copied onto Github
+https://nondumisozuma4.atlassian.net/jira/software/projects/SCRUM/boards/1/backlog?selectedIssue=SCRUM-3
