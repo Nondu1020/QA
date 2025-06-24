@@ -1,0 +1,123 @@
+# 🧪 Test Plan – Manual Testing of FNB Bank Website
+
+**Project Title:** FNB Website Manual Testing  
+**Tester:** Nondumiso Zuma  
+**Date Prepared:** June 19, 2025  
+**Version:** 1.0  
+**Website Under Test:** [https://www.fnb.co.za](https://www.fnb.co.za)
+
+---
+
+## 1. 🎯 Test Objective
+
+The goal of this test is to verify the functionality and usability of core public-facing features of the First National Bank (FNB) website. The test focuses on ensuring that key navigation elements and user entry points behave as expected, and to identify any defects or unexpected behaviors affecting user experience.
+
+---
+
+## 2. 🔍 Scope of Testing
+
+### ✅ In Scope
+- Homepage accessibility and content display
+- Contact Us menu functionality
+- Search functionality
+
+### 🚫 Out of Scope
+- Mobile responsiveness testing
+- Internal banking features (behind login)
+- Performance and security testing
+
+---
+
+## 3. 🧪 Test Items
+
+| Feature           | Test Purpose                                      |
+|------------------|---------------------------------------------------|
+| Homepage          | Ensure site is accessible and loads correctly     |
+| Contact Us Menu   | Validate redirection and contact information      |
+| Search Function   | Check that it returns relevant results            |
+| Login Portal      | Test redirection to the online banking login form |
+
+---
+
+## 4. 🛠️ Test Approach
+
+- Manual black-box testing was performed using the **Chrome browser**.
+- Test cases were designed following the **ISTQB Foundation Level guidelines**.
+- Defects were logged in a simulated defect tracking system (documented in `bug-reports.md`).
+- The test execution and status were manually recorded.
+
+---
+
+## 5. 📋 Test Cases Summary
+
+| Test Case ID | Title                     | Result |
+|--------------|---------------------------|--------|
+| TC01         | Homepage Loads Successfully | ✅ Pass |
+| TC02         | Contact Us Page Opens      | ✅ Pass |
+| TC03         | Search Bar Functionality   | ❌ Fail |
+| TC04         | Login Portal Redirection   | ❌ Fail |
+
+Total Test Cases: **4**  
+Passed: **2**  
+Failed: **2**
+
+---
+
+## 6. 🐞 Defects Summary
+
+| Bug ID | Title                                   | Severity | Status |
+|--------|-----------------------------------------|----------|--------|
+| BUG-01 | Search bar is unresponsive              | Medium   | New    |
+| BUG-02 | Login portal fails to load              | High     | New    |
+
+Total Defects: **2**
+
+---
+
+## 7. ✅ Entry and Exit Criteria
+
+### Entry Criteria:
+- Website is accessible via public internet
+- Browser is installed and functional
+- Test cases are written and reviewed
+
+### Exit Criteria:
+- All planned test cases executed
+- All high-priority bugs reported
+- Test summary report completed
+
+---
+
+## 8. 🔄 Test Environment
+
+| Component       | Description                      |
+|----------------|----------------------------------|
+| Browser         | Google Chrome (v124+)            |
+| OS              | Windows 10 / Android 10          |
+| Network         | Home Wi-Fi (standard connection) |
+| Website Tested  | [https://www.fnb.co.za](https://www.fnb.co.za) |
+
+---
+
+## 9. 📁 Deliverables
+
+- `test-plan.md` – This document  
+- `manual-test-cases.md` – Test case table  
+- `bug-reports.md` – Bug logs with descriptions  
+- Screenshots – Located in `/docs/screenshots/`
+
+---
+
+## 10. 🧠 Assumptions and Risks
+
+- Assumption: Website content and functionality are consistent across sessions
+- Assumption: Test results are based on desktop browser view
+- Risk: No access to real backend functionality behind login
+- Risk: Public site may be updated, which could impact test case reproducibility
+
+---
+
+## 11. 🔚 Conclusion
+
+Manual testing was successfully conducted on key areas of the FNB public website. While homepage and Contact Us features worked as expected, two issues were found—an unresponsive search bar and a failed login redirection. These defects were documented and can be used as part of a QA learning or portfolio showcase.
+
